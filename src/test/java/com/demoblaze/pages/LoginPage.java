@@ -2,6 +2,9 @@ package com.demoblaze.pages;
 
 import com.demoblaze.utilities.BrowserUtils;
 import com.demoblaze.utilities.ConfigurationReader;
+import com.demoblaze.utilities.Driver;
+import org.junit.Assert;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -29,6 +32,21 @@ public class LoginPage extends BasePage {
         BrowserUtils.waitFor(2);
     }
 
+    public void login(String username,String password){
+        loginHomePage.click();
+        input_loginusername.sendKeys(username);
+        input_loginpassword.sendKeys(password);
+        submitBtn.click();
+        BrowserUtils.waitFor(2);
+    }
+
+    public void verifyWithPopUpMessage(String expectedMessage){
+        Alert alert = Driver.get().switchTo().alert();
+        String actualMessage=alert.getText();
+        System.out.println("actualMessage = " + actualMessage);
+
+        Assert.assertEquals(expectedMessage,actualMessage);
+    }
 
 
 

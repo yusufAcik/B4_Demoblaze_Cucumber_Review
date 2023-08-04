@@ -10,4 +10,9 @@ public class HomePage extends BasePage{
         String expectedUsername= ConfigurationReader.get("username");
         Assert.assertTrue(actualUsername.contains(expectedUsername));
     }
+
+    public void verifyLogin(String expectedUsername){
+        String actualUsername=nameofuser.getText();
+        Assert.assertTrue(actualUsername.contains(expectedUsername));
+    }
 }
