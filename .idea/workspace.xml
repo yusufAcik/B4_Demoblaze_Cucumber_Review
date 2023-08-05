@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="031fb11a-2aa9-47cd-aa96-a7556d153353" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/purchase.feature" afterDir="false" />
+    <list default="true" id="031fb11a-2aa9-47cd-aa96-a7556d153353" name="Changes" comment="4 8">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/pages/CartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/step_definitions/Purchase_StepDefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/pages/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/runners/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/step_definitions/Login_StepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/step_definitions/Login_StepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/purchase.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/purchase.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,14 +48,14 @@
     <option name="showVisibilityIcons" value="true" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/ASUS/IdeaProjects/B4_Demoblaze_Cucumber_Review/src/test/java/com/demoblaze/utilities"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ASUS/IdeaProjects/B4_Demoblaze_Cucumber_Review/src/test/java/com/demoblaze/utilities&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ASUS\IdeaProjects\B4_Demoblaze_Cucumber_Review\src\test\java\com\demoblaze\utilities" />
@@ -99,12 +99,20 @@
       <option name="project" value="LOCAL" />
       <updated>1691171770401</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="4 8">
+      <created>1691179218395</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691179218395</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="4 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="4 8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
